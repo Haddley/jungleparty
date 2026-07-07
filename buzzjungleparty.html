@@ -128,10 +128,12 @@ input.name{text-transform:none}
   box-shadow:0 6px 0 rgba(0,0,0,.45),inset 0 2px 4px rgba(255,255,255,.35);transition:transform .05s,box-shadow .05s}
 .bz-col:active,.bz-col.down{transform:translateY(5px);box-shadow:0 1px 0 rgba(0,0,0,.45),inset 0 2px 4px rgba(0,0,0,.25)}
 .bz-col:disabled{filter:grayscale(.8) brightness(.5)}
-.bz-col.blue{background:linear-gradient(180deg,#4d94ff,var(--p-blue))}
-.bz-col.orange{background:linear-gradient(180deg,#ff9d4d,var(--p-orange))}
-.bz-col.green{background:linear-gradient(180deg,#4dee73,var(--p-green))}
-.bz-col.yellow{background:linear-gradient(180deg,#fff04d,var(--p-yellow));color:#6b5900;text-shadow:none}
+/* buttons must read as the exact player colours used on the TV (totem heads,
+   hole rings, hurdles): pure hex from 40% down, only a thin sheen on top */
+.bz-col.blue{background:linear-gradient(180deg,#3385ff,var(--p-blue) 40%)}
+.bz-col.orange{background:linear-gradient(180deg,#ff8f33,var(--p-orange) 40%)}
+.bz-col.green{background:linear-gradient(180deg,#33d958,var(--p-green) 40%)}
+.bz-col.yellow{background:linear-gradient(180deg,#ffe633,var(--p-yellow) 40%);color:#6b5900;text-shadow:none}
 .bz-foot{display:flex;justify-content:center;gap:14px}
 .togg{background:none;border:none;font-size:20px;opacity:.7}
 
