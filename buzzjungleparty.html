@@ -14,7 +14,7 @@
   --jungle-deep:#0b3d1e; --jungle:#14572c; --jungle-lite:#1e7a3e; --leaf:#2e9e52;
   --sand:#f6e3b4; --wood:#7a4a21; --wood-lite:#a2692f;
   --red:#e53935; --red-dark:#a02320;
-  --p-blue:#1e88ff; --p-orange:#ff8a1e; --p-green:#31c04f; --p-yellow:#ffd400;
+  --p-blue:#0066ff; --p-orange:#ff7300; --p-green:#00d02e; --p-yellow:#ffe000;
   --ink:#1a2b1e; --paper:#fffdf4;
   --shadow:0 6px 18px rgba(0,0,0,.35);
 }
@@ -124,10 +124,10 @@ input.name{text-transform:none}
   box-shadow:0 6px 0 rgba(0,0,0,.45),inset 0 2px 4px rgba(255,255,255,.35);transition:transform .05s,box-shadow .05s}
 .bz-col:active,.bz-col.down{transform:translateY(5px);box-shadow:0 1px 0 rgba(0,0,0,.45),inset 0 2px 4px rgba(0,0,0,.25)}
 .bz-col:disabled{filter:grayscale(.8) brightness(.5)}
-.bz-col.blue{background:linear-gradient(180deg,#5aa9ff,var(--p-blue))}
-.bz-col.orange{background:linear-gradient(180deg,#ffb066,var(--p-orange))}
-.bz-col.green{background:linear-gradient(180deg,#6fdd8b,var(--p-green))}
-.bz-col.yellow{background:linear-gradient(180deg,#ffe566,var(--p-yellow));color:#6b5900;text-shadow:none}
+.bz-col.blue{background:linear-gradient(180deg,#4d94ff,var(--p-blue))}
+.bz-col.orange{background:linear-gradient(180deg,#ff9d4d,var(--p-orange))}
+.bz-col.green{background:linear-gradient(180deg,#4dee73,var(--p-green))}
+.bz-col.yellow{background:linear-gradient(180deg,#fff04d,var(--p-yellow));color:#6b5900;text-shadow:none}
 .bz-foot{display:flex;justify-content:center;gap:14px}
 .togg{background:none;border:none;font-size:20px;opacity:.7}
 
@@ -155,10 +155,10 @@ input.name{text-transform:none}
 const PREFIX='BZJP-';
 const ALPHA='ABCDEFGHJKLMNPQRSTUVWXYZ';
 const COLORS=[
- {id:'blue',  name:'Blue',  hex:'#1e88ff', dark:'#0d5bbf'},
- {id:'orange',name:'Orange',hex:'#ff8a1e', dark:'#c66206'},
- {id:'green', name:'Green', hex:'#31c04f', dark:'#1d8735'},
- {id:'yellow',name:'Yellow',hex:'#ffd400', dark:'#c7a600'},
+ {id:'blue',  name:'Blue',  hex:'#0066ff', dark:'#0047b3'},
+ {id:'orange',name:'Orange',hex:'#ff7300', dark:'#c25500'},
+ {id:'green', name:'Green', hex:'#00d02e', dark:'#009421'},
+ {id:'yellow',name:'Yellow',hex:'#ffe000', dark:'#c9ab00'},
 ];
 const BTNS=['red','blue','orange','green','yellow'];
 const LENGTHS=[{id:'short',label:'Short',rounds:4},{id:'medium',label:'Medium',rounds:6},{id:'long',label:'Long',rounds:8}];
